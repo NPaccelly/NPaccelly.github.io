@@ -4,164 +4,272 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nathália Paccelly — Inteligência de Mercado, BI &amp; Comunicação Estratégica</title>
-<meta name="description" content="Portfólio de Nathália Paccelly, especialista sênior em Inteligência de Mercado, Business Intelligence e Comunicação Estratégica, 15+ anos de experiência.">
+<meta name="description" content="Nathália Paccelly — Especialista Sênior em Inteligência de Mercado, Business Intelligence e Comunicação Estratégica. 15+ anos de experiência.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="ticker" aria-hidden="true">
-  <div class="ticker-track">
-    <span>SELL-IN / SELL-OUT</span><span>·</span><span>MARKET SHARE</span><span>·</span><span>SHARE OF VOICE</span><span>·</span><span>CURVA ABC</span><span>·</span><span>DAX</span><span>·</span><span>ETL / ELT</span><span>·</span><span>LGPD</span><span>·</span><span>SELL-IN / SELL-OUT</span><span>·</span><span>MARKET SHARE</span><span>·</span><span>SHARE OF VOICE</span><span>·</span><span>CURVA ABC</span><span>·</span><span>DAX</span><span>·</span><span>ETL / ELT</span><span>·</span><span>LGPD</span>
+<nav class="site-nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="nav-logo"><span class="dot"></span>Nathália Paccelly</a>
+    <div class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato" class="nav-cta">Contato</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-</div>
+  <div class="wrap">
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+</nav>
 
-<header class="nav" id="top">
-  <a class="nav-name" href="#top">Nathália Paccelly</a>
-  <nav class="nav-links">
-    <a href="#sobre">Sobre</a>
-    <a href="#stack">Stack</a>
-    <a href="#experiencia">Experiência</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#contato">Contato</a>
-  </nav>
-</header>
-
-<main>
+<main id="top" style="position:relative;">
 
   <section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
     <svg class="hero-signal" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true">
-      <path id="signal-path" d="M0,150 L60,150 L90,60 L120,150 L180,150 L210,110 L240,150 L300,150 L330,30 L360,150 L420,150 L450,90 L480,150 L540,150 L570,50 L600,150 L660,150 L690,120 L720,150 L780,150 L810,20 L840,150 L900,150 L930,70 L960,150 L1000,150" fill="none"/>
+      <path d="M0,150 L60,150 L90,60 L120,150 L180,150 L210,110 L240,150 L300,150 L330,30 L360,150 L420,150 L450,90 L480,150 L540,150 L570,50 L600,150 L660,150 L690,120 L720,150 L780,150 L810,20 L840,150 L900,150 L930,70 L960,150 L1000,150"/>
     </svg>
-    <p class="eyebrow">Inteligência de Mercado &amp; BI</p>
-    <h1>Dados complexos.<br>Decisões claras.</h1>
-    <p class="hero-sub">Especialista Sênior em Inteligência de Mercado, Business Intelligence e Comunicação Estratégica — traduzindo dados fragmentados em narrativas de negócio há mais de 15 anos.</p>
-
-    <div class="stat-grid">
-      <div class="stat"><span class="stat-number" data-target="15" data-suffix="+">0</span><span class="stat-label">Anos de experiência</span></div>
-      <div class="stat"><span class="stat-number" data-target="50" data-suffix="+">0</span><span class="stat-label">Clientes corporativos</span></div>
-      <div class="stat"><span class="stat-number" data-target="500" data-suffix="+">0</span><span class="stat-label">Entregas realizadas</span></div>
-      <div class="stat"><span class="stat-number" data-target="15" data-suffix="+">0</span><span class="stat-label">Setores de atuação</span></div>
-    </div>
-  </section>
-
-  <section class="sobre" id="sobre">
-    <p class="eyebrow">Sobre</p>
-    <div class="sobre-grid">
-      <p class="sobre-lede">Da redação para o dado — e de volta para a narrativa.</p>
-      <div class="sobre-body">
-        <p>Sou especialista sênior em Inteligência de Mercado, Business Intelligence e Comunicação Estratégica, com mais de 15 anos de trajetória construída na interseção entre dados, negócio e narrativa. Minha formação em Jornalismo me deu a base para uma leitura analítica de cenários que hoje aplico na estruturação de bases de dados, dashboards e indicadores — do Power BI ao SQL, passando por Python e IA Generativa.</p>
-        <p>Ao longo da carreira, já entreguei mais de 500 análises, relatórios e dashboards para 50+ clientes corporativos em 15+ setores — de varejo e saúde a finanças e setor público. Meu diferencial é traduzir dados complexos em decisões e narrativas claras para diretorias, lideranças e públicos não especializados, sempre com governança, precisão e visão estratégica.</p>
+    <div class="wrap">
+      <div class="hero-content">
+        <span class="eyebrow">Inteligência de Mercado &amp; BI</span>
+        <h1>Dados complexos.<br>Decisões claras.</h1>
+        <p class="role-line">Inteligência de Mercado · Business Intelligence · Comunicação Estratégica</p>
+        <p class="lede">Especialista sênior traduzindo dados fragmentados em decisões e narrativas de negócio há mais de 15 anos — do Power BI ao SQL, passando por Python e IA Generativa, até a comunicação executiva para diretorias e lideranças.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">
+            Ver Projetos
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/nathaliapaccelly" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.83v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.87c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23h-4V8z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/NPaccelly" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.5c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55v-2.15c-3.17.69-3.84-1.36-3.84-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.72-1.54-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.9 10.9 0 0 1 5.74 0c2.18-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14v3.17c0 .3.21.66.79.55C19.76 20.77 23 16.51 23 11.5 23 5.24 18.27.5 12 .5z"/></svg>
+            GitHub
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="num" data-target="15" data-suffix="+">0</div><div class="label">Anos de experiência</div></div>
+          <div class="stat"><div class="num" data-target="50" data-suffix="+">0</div><div class="label">Clientes corporativos</div></div>
+          <div class="stat"><div class="num" data-target="500" data-suffix="+">0</div><div class="label">Entregas realizadas</div></div>
+          <div class="stat"><div class="num" data-target="15" data-suffix="+">0</div><div class="label">Setores de atuação</div></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="stack" id="stack">
-    <p class="eyebrow">Stack &amp; Competências</p>
-    <ul class="tag-cloud">
-      <li>Power BI</li><li>DAX</li><li>Power Query</li><li>SQL</li><li>Python</li>
-      <li>Excel Avançado</li><li>Power Pivot</li><li>Looker Studio / Data Studio</li>
-      <li>Modelagem Dimensional</li><li>dbt</li><li>BigQuery</li><li>Databricks</li>
-      <li>ETL / ELT</li><li>LGPD</li><li>IA Generativa</li><li>Prompt Engineering</li>
-      <li>Storytelling com Dados</li><li>Social Listening</li>
-    </ul>
-  </section>
-
-  <section class="experiencia" id="experiencia">
-    <p class="eyebrow">Experiência</p>
-
-    <div class="timeline">
-      <article class="role">
-        <div class="role-date"><span class="mono">2025</span><span class="mono dim">— presente</span></div>
-        <div class="role-body">
-          <h3>Especialista Sênior em BI, Inteligência de Mercado e Comunicação Estratégica</h3>
-          <p class="role-org">Consultoria Própria</p>
-          <p>Estruturação de dashboards e pipelines em Power BI, Data Studio, SQL e BigQuery; modelagem dimensional e DAX avançado para análises multiapresentação; governança de dados (LGPD) em parceria com TI; automação de relatórios e aplicação de Inteligência Artificial Generativa. Redução de até 80% no tempo de entrega de relatórios gerenciais em projetos de automação.</p>
+  <section id="sobre">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Sobre mim</span>
+        <h2>Da leitura de cenários à estruturação de dados</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-text reveal">
+          <p>Sou especialista sênior em <strong>Inteligência de Mercado, Business Intelligence e Comunicação Estratégica</strong>, com mais de 15 anos de trajetória construída na interseção entre dados, negócio e narrativa. Minha formação em Jornalismo me deu a base para uma leitura analítica de cenários que hoje aplico na estruturação de bases de dados, dashboards e indicadores.</p>
+          <p>Ao longo da carreira, já entreguei mais de 500 análises, relatórios e dashboards para 50+ clientes corporativos em 15+ setores — de varejo e saúde a finanças e setor público. Meu diferencial é traduzir dados complexos em decisões e narrativas claras para diretorias, lideranças e públicos não especializados, sempre com governança, precisão e visão estratégica.</p>
+          <div class="flow-strip">
+            <span class="fnode">Monitoramento &amp; coleta</span>
+            <span class="farrow">→</span>
+            <span class="fnode">Estruturação analítica</span>
+            <span class="farrow">→</span>
+            <span class="fnode">Insights estratégicos</span>
+            <span class="farrow">→</span>
+            <span class="fnode">Comunicação executiva</span>
+          </div>
         </div>
-      </article>
-
-      <article class="role">
-        <div class="role-date"><span class="mono">2023</span><span class="mono dim">— 2024</span></div>
-        <div class="role-body">
-          <h3>Assistente de Coordenação de Inteligência e Imagem | Analista de Dados e BI</h3>
-          <p class="role-org">Fábrica de Ideias</p>
-          <p>Coordenação de equipe de 7 analistas para 20+ clientes; padronização de entregáveis e KPIs; coordenação metodológica de índice proprietário de reputação; desenvolvimento de painel interno de performance. Redução de 50% no volume de apresentações para grande cliente de varejo.</p>
+        <div class="skills-card reveal">
+          <h3>Stack &amp; competências</h3>
+          <div class="badge-grid">
+            <span class="badge">Power BI</span>
+            <span class="badge">DAX</span>
+            <span class="badge">Power Query</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Python</span>
+            <span class="badge">Excel Avançado</span>
+            <span class="badge">Looker Studio</span>
+            <span class="badge">BigQuery</span>
+            <span class="badge">dbt</span>
+            <span class="badge">Modelagem Dimensional</span>
+            <span class="badge">LGPD</span>
+            <span class="badge">IA Generativa</span>
+          </div>
+          <div class="lang-row">
+            <div><strong>Português</strong>Nativo</div>
+            <div><strong>Inglês</strong>Avançado</div>
+          </div>
         </div>
-      </article>
-
-      <article class="role">
-        <div class="role-date"><span class="mono">2018</span><span class="mono dim">— 2022</span></div>
-        <div class="role-body">
-          <h3>Analista de Inteligência e Imagem (Júnior a Pleno)</h3>
-          <p class="role-org">Fábrica de Ideias</p>
-          <p>Pipeline de coleta e classificação de dados de mídia para 20+ clientes; cálculo de AVE, share of voice e protagonismo de marca; social listening e monitoramento de redes sociais; dashboards em Excel Avançado. Padronização da mensuração do ciclo de vida de campanhas como referência interna.</p>
-        </div>
-      </article>
-
-      <article class="role">
-        <div class="role-date"><span class="mono">2014</span><span class="mono dim">— 2018</span></div>
-        <div class="role-body">
-          <h3>Analista de Digital Pleno</h3>
-          <p class="role-org">Fábrica de Ideias</p>
-          <p>Monitoramento em tempo real de 40+ portais e agenda regulatória/legislativa federal para 15+ clientes; alertas analíticos e resumos executivos em crise. Padronização do fluxo de monitoramento para 45+ clientes.</p>
-        </div>
-      </article>
+      </div>
     </div>
   </section>
 
-  <section class="projetos" id="projetos">
-    <p class="eyebrow">Projetos &amp; Cases</p>
-    <div class="case-grid">
+  <section id="projetos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Projetos</span>
+        <h2>Cases de BI &amp; Inteligência de Mercado</h2>
+        <p>Projetos representativos de automação, modelagem de dados, reputação de marca e análise exploratória aplicada à tomada de decisão.</p>
+      </div>
+      <div class="projects-grid">
 
-      <article class="case">
-        <p class="case-tag">BI · Automação</p>
-        <h3>Automação de Relatório Gerencial — Setor Saúde</h3>
-        <p>Cliente com 8+ unidades enfrentava um ciclo manual de produção de relatórios gerenciais. Reestruturação do processo com Power Query e IA Generativa reduziu o tempo de entrega de 5 dias para 1 dia.</p>
-        <ul class="case-tools"><li>Power BI</li><li>Power Query</li><li>IA Generativa</li></ul>
-      </article>
+        <article class="proj-card p-1 reveal">
+          <div class="proj-top"><div class="proj-lang"><span class="swatch"></span>Power BI · IA Generativa</div></div>
+          <h3>Automação de Relatório Gerencial — Saúde</h3>
+          <p class="desc">Cliente com 8+ unidades enfrentava um ciclo manual de produção de relatórios gerenciais. Reestruturação do processo com Power Query e IA Generativa reduziu o tempo de entrega de 5 dias para 1 dia.</p>
+          <div class="proj-stack"><span>Power BI</span><span>Power Query</span><span>IA Generativa</span></div>
+          <a href="https://github.com/NPaccelly/health-report-automation" target="_blank" rel="noopener" class="proj-link">Ver repositório
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
 
-      <article class="case">
-        <p class="case-tag">Power BI · DAX</p>
-        <h3>Relatório Multiapresentação — Visão 360°</h3>
-        <p>Integração de mais de 12 tabelas de fontes distintas, com nomenclaturas e datas padronizadas, em um único relatório com 6 painéis: visão geral, por produto, por campanha, retorno financeiro, ROI e comparativo entre períodos.</p>
-        <ul class="case-tools"><li>Power BI</li><li>DAX</li><li>Modelagem Dimensional</li></ul>
-      </article>
+        <article class="proj-card p-2 reveal">
+          <div class="proj-top"><div class="proj-lang"><span class="swatch"></span>Power BI · DAX</div></div>
+          <h3>Relatório Multiapresentação — Visão 360°</h3>
+          <p class="desc">Integração de mais de 12 tabelas de fontes distintas, com nomenclaturas e datas padronizadas, em um único relatório com 6 painéis: visão geral, por produto, por campanha, retorno financeiro, ROI e comparativo entre períodos.</p>
+          <div class="proj-stack"><span>Power BI</span><span>DAX</span><span>Modelagem Dimensional</span></div>
+          <a href="https://github.com/NPaccelly/bi-360-report" target="_blank" rel="noopener" class="proj-link">Ver repositório
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
 
-      <article class="case">
-        <p class="case-tag">Inteligência de Mercado</p>
-        <h3>Índice Proprietário de Reputação</h3>
-        <p>Coordenação metodológica de um modelo de scoring (escala 0–10, matriz de 4 quadrantes), cruzando eficiência de narrativa e atratividade de conteúdo — adotado como serviço adicional por parte ativa da carteira de clientes.</p>
-        <ul class="case-tools"><li>Social Listening</li><li>Scoring</li><li>Benchmarking</li></ul>
-      </article>
+        <article class="proj-card p-3 reveal">
+          <div class="proj-top"><div class="proj-lang"><span class="swatch"></span>Social Listening · Scoring</div></div>
+          <h3>Índice Proprietário de Reputação</h3>
+          <p class="desc">Coordenação metodológica de um modelo de scoring (escala 0–10, matriz de 4 quadrantes), cruzando eficiência de narrativa e atratividade de conteúdo — adotado como serviço adicional por parte ativa da carteira de clientes.</p>
+          <div class="proj-stack"><span>Social Listening</span><span>Scoring</span><span>Benchmarking</span></div>
+          <a href="https://github.com/NPaccelly/reputation-index" target="_blank" rel="noopener" class="proj-link">Ver repositório
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
 
-      <article class="case">
-        <p class="case-tag">Inteligência de Mercado · Análise de Dados</p>
-        <h3>Análise Exploratória &amp; Insights Estratégicos — Sell-in/Sell-out</h3>
-        <p>Análise exploratória com testes inferenciais (hipótese, intervalo de confiança) sobre dados de sell-in/sell-out por canal, região e cliente, identificando produtos de baixo retorno e gerando recomendações estratégicas incorporadas ao escopo do cliente.</p>
-        <ul class="case-tools"><li>Excel</li><li>Power BI</li><li>Testes Inferenciais</li></ul>
-      </article>
+        <article class="proj-card p-4 reveal">
+          <div class="proj-top"><div class="proj-lang"><span class="swatch"></span>Excel · Power BI</div></div>
+          <h3>Análise Exploratória &amp; Insights Estratégicos — Sell-in/Sell-out</h3>
+          <p class="desc">Análise exploratória com testes inferenciais (hipótese, intervalo de confiança) sobre dados de sell-in/sell-out por canal, região e cliente, identificando produtos de baixo retorno e gerando recomendações estratégicas incorporadas ao escopo do cliente.</p>
+          <div class="proj-stack"><span>Excel</span><span>Power BI</span><span>Testes Inferenciais</span></div>
+          <a href="https://github.com/NPaccelly/sellin-sellout-insights" target="_blank" rel="noopener" class="proj-link">Ver repositório
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
 
+      </div>
     </div>
   </section>
 
-  <section class="contato" id="contato">
-    <p class="eyebrow">Contato</p>
-    <h2>Vamos conversar.</h2>
-    <p class="contato-lede">Transformo dados fragmentados em decisões e narrativas estratégicas. Se você precisa de inteligência de mercado, dashboards confiáveis ou comunicação de resultados para tomada de decisão, vamos conversar.</p>
-    <div class="contato-links">
-      <a href="mailto:nathalia.paccelly@gmail.com">E-mail</a>
-      <a href="https://linkedin.com/in/nathaliapaccelly" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/NPaccelly" target="_blank" rel="noopener">GitHub</a>
+  <section id="experiencia">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Experiência</span>
+        <h2>Trajetória profissional</h2>
+        <p>15+ anos de atuação contínua em inteligência de mercado, dados e comunicação estratégica.</p>
+      </div>
+
+      <div class="stage-list">
+
+        <div class="stage-item reveal">
+          <div class="stage-num">01<div class="stage-dot"></div></div>
+          <div class="stage-body">
+            <span class="stage-tag">2025 — presente</span>
+            <span class="stage-org">Consultoria Própria</span>
+            <h3>Especialista Sênior em BI, Inteligência de Mercado e Comunicação Estratégica</h3>
+            <p>Estruturação de dashboards e pipelines em Power BI, Data Studio, SQL e BigQuery; modelagem dimensional e DAX avançado para análises multiapresentação; governança de dados (LGPD) em parceria com TI; automação de relatórios e aplicação de Inteligência Artificial Generativa. Redução de até 80% no tempo de entrega de relatórios gerenciais em projetos de automação.</p>
+          </div>
+        </div>
+
+        <div class="stage-item reveal">
+          <div class="stage-num">02<div class="stage-dot"></div></div>
+          <div class="stage-body">
+            <span class="stage-tag">2023 — 2024</span>
+            <span class="stage-org">Fábrica de Ideias</span>
+            <h3>Assistente de Coordenação de Inteligência e Imagem | Analista de Dados e BI</h3>
+            <p>Coordenação de equipe de 7 analistas para 20+ clientes; padronização de entregáveis e KPIs; coordenação metodológica de índice proprietário de reputação; desenvolvimento de painel interno de performance. Redução de 50% no volume de apresentações para grande cliente de varejo.</p>
+          </div>
+        </div>
+
+        <div class="stage-item reveal">
+          <div class="stage-num">03<div class="stage-dot"></div></div>
+          <div class="stage-body">
+            <span class="stage-tag">2018 — 2022</span>
+            <span class="stage-org">Fábrica de Ideias</span>
+            <h3>Analista de Inteligência e Imagem (Júnior a Pleno)</h3>
+            <p>Pipeline de coleta e classificação de dados de mídia para 20+ clientes; cálculo de AVE, share of voice e protagonismo de marca; social listening e monitoramento de redes sociais; dashboards em Excel Avançado. Padronização da mensuração do ciclo de vida de campanhas como referência interna.</p>
+          </div>
+        </div>
+
+        <div class="stage-item reveal">
+          <div class="stage-num">04<div class="stage-dot"></div></div>
+          <div class="stage-body">
+            <span class="stage-tag">2014 — 2018</span>
+            <span class="stage-org">Fábrica de Ideias</span>
+            <h3>Analista de Digital Pleno</h3>
+            <p>Monitoramento em tempo real de 40+ portais e agenda regulatória/legislativa federal para 15+ clientes; alertas analíticos e resumos executivos em crise. Padronização do fluxo de monitoramento para 45+ clientes.</p>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
+
+  <section id="contato">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <span class="eyebrow" style="justify-content:center;">Vamos conversar</span>
+        <h2 style="margin-top:16px;">Transformo dados fragmentados em decisões estratégicas</h2>
+        <p>Se você precisa de inteligência de mercado, dashboards confiáveis ou comunicação de resultados para tomada de decisão, vamos conversar.</p>
+        <div class="contact-actions">
+          <a href="mailto:nathalia.paccelly@gmail.com" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4V4z"/><path d="M4 6l8 7 8-7"/></svg>
+            Enviar e-mail
+          </a>
+          <a href="https://linkedin.com/in/nathaliapaccelly" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.83v2.05h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.87c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23h-4V8z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <div class="contact-meta">
+          <span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4V4z"/><path d="M4 6l8 7 8-7"/></svg>
+            nathalia.paccelly@gmail.com
+          </span>
+          <a href="https://github.com/NPaccelly" target="_blank" rel="noopener">
+            <span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.5c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55v-2.15c-3.17.69-3.84-1.36-3.84-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.4-1.25.72-1.54-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17a10.9 10.9 0 0 1 5.74 0c2.18-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14v3.17c0 .3.21.66.79.55C19.76 20.77 23 16.51 23 11.5 23 5.24 18.27.5 12 .5z"/></svg>
+              GitHub
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-bottom">
+        <span>© 2026 Nathália Paccelly — Inteligência de Mercado, BI &amp; Comunicação Estratégica</span>
+        <div class="footer-social">
+          <a href="https://github.com/NPaccelly" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://linkedin.com/in/nathaliapaccelly" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:nathalia.paccelly@gmail.com" aria-label="E-mail">E-mail</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </main>
-
-<footer class="footer">
-  <p>© 2026 Nathália Paccelly — Inteligência de Mercado, BI &amp; Comunicação Estratégica</p>
-</footer>
 
 <script src="script.js"></script>
 </body>
