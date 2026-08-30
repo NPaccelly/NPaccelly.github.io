@@ -187,7 +187,7 @@ section{ position:relative; z-index:1; padding:130px 0; }
 .p-2{ --accent-solid:#7c6cf0; --accent-grad:linear-gradient(90deg,#5b47c9,#7c6cf0); }
 .p-3{ --accent-solid:#d9a84e; --accent-grad:linear-gradient(90deg,#a97c2e,#d9a84e); }
 .p-4{ --accent-solid:#38c6d9; --accent-grad:linear-gradient(90deg,#38c6d9,#4f7cff); }
-.p-5{ --accent-solid:#d9a84e; --accent-grad:linear-gradient(90deg,#d9a84e,#38c6d9,#7c6cf0); }
+.p-5{ --accent-solid:#C4FF5E; --accent-grad:linear-gradient(90deg,#C4FF5E,#FF00AA); }
 .p-6{ --accent-solid:#9CF700; --accent-grad:linear-gradient(90deg,#9CF700,#C4FF5E); }
 
 
